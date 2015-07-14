@@ -1,6 +1,6 @@
 # coding: utf-8
-#lib = File.expand_path('../lib', __FILE__)
-#$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+lib = File.expand_path('../lib', __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'faker/vehicle/version'
 
 Gem::Specification.new do |spec|
@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Eryan Cobham"]
   spec.email         = ["eryan@devmynd.com"]
 
-  spec.summary       = %q{Faker additions that generates automobile data}
+  spec.summary       = %q{Faker additions that generate automobile data}
   spec.homepage      = "https://github.com/devmynd/faker-vehicle"
   spec.license       = "MIT"
 
