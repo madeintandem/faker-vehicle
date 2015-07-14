@@ -24,41 +24,41 @@ Or install it yourself as:
 -----------------
 
 ```ruby
-Faker::Vehicle.vin #=> "CTKR523Z00K855079"
+Faker::Vehicle.car_options #=> ["Fog Lights", "Airbag: Driver", "Power Windows", "Airbag: Passenger", "Rear Window Defroster", "Power Steering", "Tow Package", "Moonroof/Sunroof"]
 
-Faker::Vehicle.mileage #=> 40796
-
-Faker::Vehicle.year #=> 2009
-
-Faker::Vehicle.make #=> "Audi"
-
-Faker::Vehicle.model #=> "F150"
-
-Faker::Vehicle.model("Audi") #=> "A4"
-
-Faker::Vehicle.make_and_model #=> "Honda CR-V"
-
-Faker::Vehicle.style #=> "ESi"
+Faker::Vehicle.car_type #=> "Sedan"
 
 Faker::Vehicle.color #=> "Red"
 
-Faker::Vehicle.transmission #=> "CVT"
-
-Faker::Vehicle.drive_type #=> "AWD"
-
-Faker::Vehicle.fuel_type #=> "Compressed Natural Gas"
-
 Faker::Vehicle.door_count #=> "4 Door"
 
-Faker::Vehicle.car_type #=> "Sedan"
+Faker::Vehicle.drive_type #=> "AWD"
 
 Faker::Vehicle.engine #=> "8 Cylinder Engine"
 
 Faker::Vehicle.engine_size #=> "8 Cylinder Engine"
 
-Faker::Vehicle.car_options #=> ["Fog Lights", "Airbag: Driver", "Power Windows", "Airbag: Passenger", "Rear Window Defroster", "Power Steering", "Tow Package", "Moonroof/Sunroof"]
+Faker::Vehicle.fuel_type #=> "Compressed Natural Gas"
+
+Faker::Vehicle.make #=> "Audi"
+
+Faker::Vehicle.make_and_model #=> "Honda CR-V"
+
+Faker::Vehicle.mileage #=> 40796
+
+Faker::Vehicle.model #=> "F150"
+
+Faker::Vehicle.model("Audi") #=> "A4"
 
 Faker::Vehicle.standard_specs #=> ["Full-time all-wheel drive", "Compact spare tire", "Traveler/mini trip computer", "Brake assist", "Body color door handles", "Dana 44/226mm rear axle", "Front/rear aluminum multi-link double joint suspension w/coil springs"]
+
+Faker::Vehicle.style #=> "ESi"
+
+Faker::Vehicle.transmission #=> "CVT"
+
+Faker::Vehicle.vin #=> "CTKR523Z00K855079"
+
+Faker::Vehicle.year #=> 2009
 ```
 
 ## Development
