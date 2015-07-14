@@ -59,8 +59,6 @@ Faker::Vehicle.engine_size #=> "8 Cylinder Engine"
 Faker::Vehicle.car_options #=> ["Fog Lights", "Airbag: Driver", "Power Windows", "Airbag: Passenger", "Rear Window Defroster", "Power Steering", "Tow Package", "Moonroof/Sunroof"]
 
 Faker::Vehicle.standard_specs #=> ["Full-time all-wheel drive", "Compact spare tire", "Traveler/mini trip computer", "Brake assist", "Body color door handles", "Dana 44/226mm rear axle", "Front/rear aluminum multi-link double joint suspension w/coil springs"]
-
-
 ```
 
 ## Development
