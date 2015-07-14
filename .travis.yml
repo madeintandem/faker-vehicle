@@ -1,4 +1,11 @@
 language: ruby
 rvm:
-  - 2.2.0
+- 2.2.0
 before_install: gem install bundler -v 1.10.5
+deploy:
+  provider: rubygems
+  api_key:
+    secure: u2Oc7fr7GMiKS3kEtz7Vt61S260XPXq1POX70vODn8pFsIo53PToyLzk1k0r+aYvRA+wj0QzrJa67AjxENbyX8zttxhVgWGIuR1iKwVEp4MgmVPj/le5uBhqjUN02aXsgho2p+c8XUw8yVkX3y7mTRwEosAHF0mUmGmVrYjXcBCuXNkx5CxGLq9ere4J760xjVBAb0vbBm1gQHPEVxe8Z01PDlj0BInnSjUG7J/4g27VilLabPFhSaMu2yZ1h9WZ5yOA/k8eYXg0ulMjow6B6hROaKQfL/oKDopCcGwlQI/sjZYvQp00igkUDfmGNQ6rQ5OPtKtEAGQGTiVpEh2jkh8O0QxBygE2cjkRSQZ7sc2J+kuJD3o7hL1C+JZLBKSYPMqD0HnIm/XJ1RbJTRdcYr1nyKzb6fEgyKdGaCS8hQYYWn9B7bsb/QPCSFbQhAQl5aUmaipJEyCOR86xVIfN7RdRAq4N0MX2OTo39W5nIsfLxLmy6RBXG3/5BmaBEXg3u2t9bga0+hUCcmPz97q7dSi0xRk/2+YMvgwDd8DZXXkAgQimjRCuRAYo0nVHPhmfEIID7rpIYZoOxErn5LwI8zqCtcJrRRX4XCLKfvUmzKRIINqJM+sH4Bi0CjcWH19nIXCVmHoB0VbTBw/t95YwoquHunXTUcRM47SJApmJVB4=
+  gem: faker-vehicle
+  on:
+    repo: devmynd/faker-vehicle
